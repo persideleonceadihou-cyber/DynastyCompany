@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYNASTY COMPANY</title>
+    <link href="https://jsdelivr.net" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="fw-bold text-success">Nos Services Experts</h1>
+        <hr class="mx-auto" style="width: 50px; height: 3px">
+        <h3 class="text-muted">L'expertise DYNASTY COMPANY déclinée en 4 pôles stratégiques.</h3>
+    </div>
+
+    <!-- Pôle 1 : Image à gauche, Texte à droite -->
+    <div class="row align-items-center mb-5 py-4 border-bottom">
+
+        <div class="col-md-7">
+            <h2 class="fw-bold text-primary">Transport routier de marchandises et logistiques et transport de personne</h2>
+            <ul class="mt-3">
+                <li>Transport national et international, distribution de produits industriels, médicaux, alimentaires et autres</li>
+                <li>Transport de conteneurs depuis et vers le port</li>
+                <li>Affretement de camions pour les missions ponctuelles ou longue durée</li>
+                <li>Déménagement professionnel ou institutionnel</li>
+                <li>Application strict des normes HSE et des exigences clients</li>
+                <li>Location de voiture pour transport de personne alliant sécurité, confort</li>
+                <li>Livraison express ou urgentes au Bénin et dans la sous-région</li>
+                <li>Mise en place de solution de transport externalisé pour les entreprises.</li>
+            </ul>
+        </div>
+        <div class="col-md-5 text-center">
+            <img src="assets/image/transport.jpg" class="img-fluid rounded shadow" width="300px" alt="Transport">
+        </div>
+    </div>
+
+    <!-- Pôle 2 : Texte à gauche, Image à droite (Style alterné) -->
+    <div class="row align-items-center mb-5 py-4 border-bottom">
+        <div class="col-md-7 pe-md-5 order-2 order-md-1">
+            <h2 class="fw-bold text-primary">Solutions Numériques</h2>
+            <ul>
+                <li>Gestion et suivi des flottes via outils numériques intégrés (GPS, tableaux de bord intelligents)</li>
+                <li>Livraison sécurisée avec traçabilité en temps réel et optimisation d'itinéraires</li>
+                <li>Livraison sécurisée avec traçabilité en temps réel et optimisation d'itinéraires</li>
+                <li>Application mobile dédiée pour le suivi client et géolocalisation</li>
+                <li>Développement de solutions sur mesure selon les besoins spécifiques</li>
+                <li>intégration de systèmes de remontée automatique des incidents</li>
+                <li>Génération de rapports d’activité et indicateurs de performance (KPI)</li>
+                <li>Automatisation des processus logistiques : commandes, affectations, facturation.</li>
+            </ul>
+        </div>
+        <div class="col-md-5 order-1 order-md-2">
+            <img src="assets/image/numérique.jpg" class="img-fluid rounded shadow" width="300px" alt="Location">
+        </div>
+    </div>
+
+    <!-- Pôle 3 : Image à gauche, Texte à droite -->
+     <div class="row align-items-center mb-5 py-4 border-bottom">
+        <div class="col-md-7 pe-md-5 order-2 order-md-1">
+            <h2 class="fw-bold text-primary">Formation professionnelle</h2>
+            <ul>
+               <li>Renforcement des capacités des conducteurs et agents logistiques</li>
+               <li>Conduite défensive, sécurité routière, écoconduite</li>
+               <li>Formation aux normes HSE et gestion logistique responsable</li>
+               <li>Modules spécialisés pour la gestion de flotte et conformité douanière</li>
+               <li>Accompagnement à la professionnalisation et à la certification</li>
+               <li>Sessions sur mesure pour chauffeurs d'ONGs et grandes institutions.</li>
+            </ul>
+        </div>
+        <div class="col-md-5 order-1 order-md-2">
+            <img src="assets/image/formation.jpg" class="img-fluid rounded shadow" width="300px" alt="Location">
+        </div>
+    </div>
+     <div class="row align-items-center mb-5 py-4 border-bottom">
+        <div class="col-md-7 pe-md-5 order-2 order-md-1">
+            <h2 class="fw-bold text-primary">Conseils et Accompagnement</h2>
+            <ul>
+               <li>Structuration des transporteurs informels (immatriculation, statut)</li>
+               <li>Appuis à la mise en conformité (douane, fiscalité, sécurité)</li>
+               <li>Audit opérationnel et recommandations sur mesure</li>
+               <li>Conseils en acquisition ou renouvellement de flotte</li>
+               <li>Accompagnement dans la digitalisation des opérations</li>
+               <li>Sensibilisation aux exigences environnementales et sociales</li>
+               <li>Médiation avec les administrations et organismes de régulation</li>
+               <li>Accompagnement à la levée de fonds et financement.</li>
+            </ul>
+        </div>
+        <div class="col-md-5 order-1 order-md-2">
+            <img src="assets/image/conseil.jpg" class="img-fluid rounded shadow" width="300px" alt="Location">
+        </div>
+    </div>
+</main>
+<footer class="bg-dark text-white pt-5 pb-4 mt-5">
+    <div class="container">
+        <div class="row">
+            <!-- Colonne 1 : À propos -->
+            <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Dynasty Company</h5>
+                <p>L'élégance de la logistique en Afrique de l'Ouest.</p>
+            </div>
+
+            <!-- Colonne 2 : Liens utiles -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Services</h5>
+                <p>Transport</a></p>
+                <p>Location</p>
+                <p>Formation</p>
+            </div>
+
+            <!-- Colonne 3 : Contact -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contact</h5>
+                <p><i class="fas fa-home mr-3"></i> Cotonou, Bénin</p>
+                <p><i class="fas fa-envelope mr-3"></i> info@dynasty.com</p>
+                <p><i class="fas fa-phone mr-3"></i> +229 00 00 00 00</p>
+            </div>
+        </div>
+
+        <hr class="mb-4">
+
+        <!-- Copyright -->
+        <div class="row align-items-center">
+            <div class="col-md-7 col-lg-8">
+                <p>Copyright ©2024 Tous droits réservés par :
+                    <a href="#" style="text-decoration: none;">
+                        <strong class="text-primary">DYNASTY COMPANY</strong>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
