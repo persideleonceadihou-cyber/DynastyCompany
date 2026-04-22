@@ -120,15 +120,17 @@ nav h1 {
     box-shadow: 0 0 0 3px rgba(197, 160, 89, 0.2);
 }
 
-.btn-outline-success {
+.btn-outline-success,
+.btn-outline-primary {
     border-radius: 25px;
-    border-color: var(--gold);
-    color: var(--gold);
+    border-color: #0d6efd;
+    color: #0d6efd;
     transition: all 0.3s ease;
 }
 
-.btn-outline-success:hover {
-    background: var(--gold);
+.btn-outline-success:hover,
+.btn-outline-primary:hover {
+    background: #0d6efd;
     color: white;
 }
 
@@ -197,20 +199,20 @@ nav h1 {
 
 /* Bouton principal */
 .btn-primary {
-    background: var(--gold);
+    background: #0d6efd;
     border: none;
     padding: 1rem 2.5rem;
     border-radius: 50px;
     font-weight: 600;
     font-size: 1.1rem;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(197, 160, 89, 0.4);
+    box-shadow: 0 4px 15px rgba(13, 110, 253, 0.35);
 }
 
 .btn-primary:hover {
-    background: var(--gold-dark);
+    background: #0b5ed7;
     transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(197, 160, 89, 0.5);
+    box-shadow: 0 6px 20px rgba(13, 110, 253, 0.45);
 }
 
 /* ============================================
